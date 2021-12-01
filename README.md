@@ -3,7 +3,7 @@
 ## To enable Security
 ~~~
 Controller Level: @SecurityRequirement(name = "JWT Authorization")
-@SecurityScheme(name = "JWT Authorization", scheme = "bearer", type = SecuritySchemeType.HTTP, in = SecuritySchemeIn.HEADER)
+Configuration: @SecurityScheme(name = "JWT Authorization", scheme = "bearer", type = SecuritySchemeType.HTTP, in = SecuritySchemeIn.HEADER)
 ~~~
 
 
